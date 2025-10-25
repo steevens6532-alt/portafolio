@@ -1,0 +1,9 @@
+# Archivos de sistema
+*~
+*.swp
+*.swo
+
+.vscode/
+
+## Dependencias (Para el futuro V2)
+node_modules/

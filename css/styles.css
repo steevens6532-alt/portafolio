@@ -1,0 +1,170 @@
+
+:root{
+    --fuente-principal: 'Lato', sans-serif;
+    --color-primario: #121212;
+    --color-secundario: #1E1E1E;
+    --color-texto: #E0E0E0;
+    --color-texto-secundario: #b0b0b0;
+    --color-acento: #64FFDA;
+    --color-sombra: rgba(0, 0, 0, 0.5);
+}
+
+/*BOX SIZING*/
+html {
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*GENERALES*/
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    font-family: var(--fuente-principal);
+}
+
+a {
+    color: var(--color-acento);
+    text-decoration: none;
+}
+
+/*MAIN GRID*/
+@media (min-width: 768px) {
+  .container--grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/*HEADER*/
+@media (min-width: 768px) {
+  .header_titulo{
+    padding-left: 1rem;
+  }
+}
+
+.header_titulo{
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0 ;
+}
+
+.header{
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .header{
+    text-align: left;
+  }
+}
+
+
+
+/*ABOUT ME AND NAV*/
+
+.navegacion_container{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+}
+
+@media (min-width: 768px) {
+  .section_aboutme{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+}
+
+
+/* .section_aboutme--grid {
+    display : grid;
+    grid-template-rows: 2fr;
+} */
+
+@media (min-width: 768px) {
+  .navegacion_container{
+  grid-row-start: 1;
+  padding-right: 2rem;
+}
+}
+
+.curriculum{
+  align-items: center;
+}
+
+
+/* @media (min-width: 768px) {
+
+.navegacion_container{
+  grid-row-start: 2;
+} 
+} */
+
+
+
+
+
+.navegacion_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+@media (min-width: 768px) {
+  .navegacion_flex{
+    padding: 2rem;
+    flex-direction: column;
+  }
+} 
+
+.navegacion__enlace{
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+
+/*------------------PROYECTOS------------------*/
+
+@media (min-width: 768px) {
+  .container_proyectos{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: -3;
+    grid-row-end: -2;
+  }
+}
+
+
+/*-----------------CONTACTO-------------------*/
+
+@media (min-width: 768px) {
+  .container_contacto{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: -2;
+    grid-row-end: -1;
+  }
+}
+
+
+/*-----------------FOOTER-------------------*/
+
+.footer{
+  padding: 3rem;
+}

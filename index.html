@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="/css/normalize.css" as="stylesheet">
+    <link rel="preload" href="/css/styles.css" as="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Steevens Vargas</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_titulo"><a href="index.html">Steevens Vargas</a></h1>
+    </header>
+    <main class="container container--grid">
+        <!-- SOBRE MI -->
+        <!-- <section class="section_aboutme section_aboutme--grid"> -->
+
+            <div class="navegacion_container">
+                <nav class="navegacion navegacion_flex">
+                    <a href="index.html" class="navegacion__enlace">Sobre mí</a>
+                    <a href="proyectos.html" class="navegacion__enlace">Proyectos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contáctame</a>
+                </nav>
+            </div>
+        </section>
+
+        <!-- PROYECTO -->
+
+        <section class="section_aboutme">
+            <div class="aboutme_texto">
+                <h2 class="aboutme_texto--titulo">Sobre mí</h2>
+                <p class="aboutme_texto--parrafo">Soy Steevens Vargas, estudiante de Ingeniería de Software en Perú, apasionado por el desarrollo web y la creación de soluciones tecnológicas funcionales y con propósito. Actualmente me especializo en HTML5, CSS3 y JavaScript, con una sólida base en Java y conocimientos en Git, GitHub y Linux. Me gusta construir interfaces limpias, optimizadas y centradas en la experiencia del usuario.
+                Estoy desarrollando mi portafolio con el objetivo de iniciar mi carrera profesional como desarrollador front-end o full stack trainee, aplicando las mejores prácticas de programación y diseño.<br><br> Mi enfoque está en seguir aprendiendo tecnologías modernas y, a mediano plazo, explorar áreas como automatización, inteligencia artificial y modelos de lenguaje (LLM). Busco siempre mantenerme en crecimiento, aportar a equipos colaborativos y desarrollar proyectos que generen impacto real en el entorno digital.</p>
+            </div>
+            <div class="curriculum resume">
+                <a href="assets/SteevensVargas_Resume.pdf" target="_blank">
+                    <div class="enlace_cv">
+                        Revisa mi curriculum <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-external-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="container_proyectos">
+            <h2 class="proyecto_titulo">Proyectos</h2>
+            <div class="proyecto">
+                <div class="proyecto_item">
+                    <img src="#" alt="Proyecto 1" class="proyecto_item--imagen">
+                    <p class="proyecto_item--descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem sunt nobis quibusdam nostrum accusantium natus nesciunt alias dolorem sequi officiis consectetur, aperiam pariatur maxime consequatur unde! Ipsa, consequuntur molestias!</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto_item">
+                    <img src="#" alt="Proyecto 2" class="proyecto_item--imagen">
+                    <p class="proyecto_item--descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem sunt nobis quibusdam nostrum accusantium natus nesciunt alias dolorem sequi officiis consectetur, aperiam pariatur maxime consequatur unde! Ipsa, consequuntur molestias!</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto_item">
+                    <img src="#" alt="Proyecto 3" class="proyecto_item--imagen">
+                    <p class="proyecto_item--descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem sunt nobis quibusdam nostrum accusantium natus nesciunt alias dolorem sequi officiis consectetur, aperiam pariatur maxime consequatur unde! Ipsa, consequuntur molestias!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <form class="container_contacto">
+            <h2 class="contactame_titulo">Contáctame</h2>
+            <div class="contactame_item">
+                <label for="nombre" class="contactame_item--label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="contactame_item--input" required>
+            </div>
+            <div class="contactame_item">
+                <label for="email" class="contactame_item--label">Email:</label>
+                <input type="email" id="email" name="email" class="contactame_item--input" required>
+            </div>
+            <div class="contactame_item">
+                <label for="mensaje" class="contactame_item--label">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" class="contactame_item--textarea" required></textarea>
+        </form>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__enlaces">
+            <a href="https://github.com/steevens6532-alt"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg></a>
+            <a href="https://www.linkedin.com/in/steevens-vargas"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="4" width="16" height="16" rx="2" /><line x1="8" y1="11" x2="8" y2="16" /><line x1="8" y1="8" x2="8" y2="8.01" /><line x1="12" y1="16" x2="12" y2="11" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></a>
+        </div>
+        <p class="footer__texto">Todos los derechos reservados &copy; 2024</p>
+    </footer>
+    
+    
+</body>
+</html>
