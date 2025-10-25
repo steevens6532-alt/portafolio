@@ -1,6 +1,7 @@
 # 🚀 Portafolio Personal | Steevens Vargas, Ing. de Software
 
-¡Bienvenido(a)! Este es el MVP (Producto Mínimo Viable) de mi portafolio profesional, diseñado para mostrar mi base sólida en desarrollo frontend y mi enfoque en la usabilidad y diseño limpio.
+¡Bienvenido(a)! Este es el MVP de mi portafolio profesional, diseñado para mostrar mi base sólida en desarrollo frontend y mi enfoque en la usabilidad y diseño limpio.
+
 
 **Objetivo:** Conseguir visibilidad para postular a oportunidades de Internship en empresas de tecnología (incluyendo Big 4: Deloitte, EY, PwC, KPMG).
 
