@@ -122,9 +122,6 @@ span{
 }
 }
 
-.curriculum{
-  align-items: center;
-}
 
 .aboutme_texto--titulo{
   font-size: 2rem;
@@ -154,6 +151,28 @@ span{
     margin-bottom: 1rem;
     text-transform: uppercase;
   }
+
+/*----------------------------CV------------------*/
+
+.enlace_resume{
+  display: inline-flex;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: var(--color-acento);
+  border-radius: 5px;
+  color: var(--color-primario);
+  font-weight: bold;
+  margin-top: 1rem;
+  align-content: center;
+}
+
+
+.enlace_resume:hover{
+  background-color: var(--color-sombra);
+  transition: background-color 0.3s ease;
+  color: var(--color-texto);
+}
+
 
 
 /*------------------PROYECTOS------------------*/
@@ -198,6 +217,73 @@ span{
   font-size: 2rem;
   color: var(--color-texto);
 }
+
+.contactame_item--input{
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color-acento);
+  border-radius: 5px;
+  color: var(--color-texto);
+  background-color: var(--color-sombra);
+}
+
+.contactame_item--textarea{
+  width: 100%;
+  height: 10rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color-acento);
+  border-radius: 5px;
+  color: var(--color-texto);
+  background-color: var(--color-sombra);
+  resize: none;
+
+}
+
+
+
+.contactame_item--boton{
+  padding: 0.7rem 2rem;
+  background-color: var(--color-acento);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-primario);
+  width: 100%;
+}
+
+.contactame_item--boton:hover{
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-sombra);
+  color: var(--color-texto);
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+.contactame_item--boton{
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-acento);
+  color: var(--color-primario);
+  font-weight: bold;
+  cursor: pointer;
+  width: 10rem;
+}
+
+.contactame_item--boton:hover{
+  width: 10rem;
+
+}
+}
+
 
 
 /*-----------------FOOTER-------------------*/

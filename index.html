@@ -16,8 +16,7 @@
         <h1 class="header_titulo"><a href="index.html">Steevens Vargas</a></h1>
     </header>
     <main class="container container--grid">
-        <!-- SOBRE MI -->
-        <!-- <section class="section_aboutme section_aboutme--grid"> -->
+        <!-- NAV-->
 
             <div class="navegacion_container">
                 <nav class="navegacion navegacion_flex">
@@ -28,8 +27,7 @@
             </div>
         </section>
 
-        <!-- PROYECTO -->
-
+        <!-- ABOUT ME -->
         <section class="section_aboutme">
             <div class="aboutme_texto">
                 <h2 class="aboutme_texto--titulo">Sobre mí</h2>
@@ -37,13 +35,13 @@
                 Estoy desarrollando mi portafolio con el objetivo de iniciar mi carrera profesional como desarrollador front-end o full stack trainee, aplicando las mejores prácticas de programación y diseño.<br><br> Mi enfoque está en seguir aprendiendo tecnologías modernas y, a mediano plazo, explorar áreas como automatización, inteligencia artificial y modelos de lenguaje (LLM). Busco siempre mantenerme en crecimiento, aportar a equipos colaborativos y desarrollar proyectos que generen impacto real en el entorno digital.</p>
             </div>
             <div class="curriculum resume">
-                <a href="assets/SteevensVargas_Resume.pdf" target="_blank">
-                    <div class="enlace_cv">
+                <a class="enlace_resume" href="assets/SteevensVargas_Resume.pdf" target="_blank">
                         Revisa mi curriculum <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-external-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
-                    </div>
                 </a>
             </div>
         </section>
+
+        <!-- PROYECTO -->
 
         <section class="container_proyectos">
             <h2 class="proyecto_titulo">Proyectos</h2>
@@ -90,6 +88,8 @@
             <div class="contactame_item">
                 <label for="mensaje" class="contactame_item--label">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" class="contactame_item--textarea" required></textarea>
+            </div>
+            <button type="submit" class="contactame_item--boton">Enviar</button>
         </form>
 
     </main>
